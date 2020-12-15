@@ -1,25 +1,32 @@
-
 body{
-    background-color: aliceblue;
-    font-family: "Permanent Marker";
+  background-color: aliceblue;
+  font-family: "Permanent Marker";
 }
 .section-1{
-    width: 50%;
-    margin: auto;
-  }
+  width: 50%;
+  margin: auto;
+}
 
 article{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5%;
 }
 table {
-    margin-top: 30px;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  th, td {
-    text-align: right;
-    padding: 8px;
-  }
+  margin-top: 30px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: right;
+  padding: 8px;
+}
+
+#txtQty, #txtPrice {
+  width: 30px;
+}
+
+td:nth-child(6) {
+  text-align: left;
+}
